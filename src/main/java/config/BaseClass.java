@@ -2,6 +2,10 @@ package config;
 
 public class BaseClass {
 
+	public BaseClass() {
+		System.out.println("Default Constructor");
+	}
+
 	public void sum() {
 		System.out.println("Sum");
 
