@@ -4,7 +4,12 @@ public class BaseClass {
 	int x, y;
 
 	public BaseClass(int x, int y) {
+		System.out.println("This is constructor");
 		System.out.println("Parameter constructor");
+	}
+
+	public BaseClass() {
+		System.out.println("Default Constructor");
 	}
 
 	public void sum() {
